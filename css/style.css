@@ -1,0 +1,204 @@
+*{
+  scroll-behavior: smooth;
+}
+body{
+    width:100vw;
+    height:100vh;
+    overflow-x:hidden;
+}
+.header-div{
+    height:10vh;
+    border:none;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    box-sizing: border-box;
+    background-color: white;
+}
+main{
+    background-image: linear-gradient(to bottom , white , aliceblue);
+}
+.nav-link{
+    color:black;
+    font-weight:700;
+    font-size:1.5rem;
+    text-decoration: none;
+    font-family: 'system-ui',sans-serif;
+}
+.nav-link:hover{
+    text-decoration: underline black;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#image{
+    width:15rem;
+    height:15rem;
+    border-radius: 100%;
+}
+footer{
+    width:100vw;
+    border:1px solid white;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.aqua{
+    color: rgb(49, 247, 247);
+}
+.s-text{
+    width:18rem;
+    height:8rem;
+    border:1px solid rgb(255, 250, 250);
+    background-color: rgb(255, 250, 250);
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+.s-text > p{
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: center;
+}
+.small-intro{
+    display:grid;
+    width:45rem;
+    height:18rem;
+    margin-top: 15vh;
+    grid-template-columns: 1fr 1fr; 
+}
+.i-size{
+    width:10rem;
+    height:10rem;
+}
+.p-flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.center{
+    text-align: center;
+    font-family: 'system-ui',sans-serif;
+    color:rgb(0, 0, 0);
+}
+#html{
+    list-style-image: url("../icon/html.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#css{
+    list-style-image: url("../icon/css.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#js{
+    list-style-image: url("../icon/javascript.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#node{
+    list-style-image: url("../icon/node.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#ex{
+    list-style-image: url("../icon/express.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#sql{
+    list-style-image: url("../icon/sql.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#mysql{
+    list-style-image: url("../icon/mysql.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#ejs{
+    list-style-image: url("../icon/ejs.jpg");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#github-pages{
+    list-style-image: url("../icon/github.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#github{
+    list-style-image: url("../icon/github.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#git{
+    list-style-image: url("../icon/git.png");
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
+#linkedin{
+    list-style-image: url("../icon/linkedin.png");
+}
+#g{
+    list-style-image: url("../icon/github.png");
+}
+#add{
+    list-style-image: url("../icon/home.png");
+}
+#gmail{
+    list-style-image: url("../icon/gmail.png");
+}
+.des{
+    font-size:2rem;
+    font-family: 'system-ui',sans-serif;
+    font-weight: 600;
+}
+ul{
+    font-size:1.2rem;
+    font-weight:600;
+    font-family: 'Gill Sans', Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+.ol-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 3rem;
+    grid-gap:5rem;
+}
+.social-div{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+#note{
+    text-align: center;
+    font-size:1.4rem;
+    color:black;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+#out-of-section{
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+.cen{
+    display: flex;
+}
+.l-text{
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:1.2rem;
+}
