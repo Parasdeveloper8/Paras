@@ -213,7 +213,7 @@ ul{
         overflow-x: hidden; /* Ensure horizontal scrolling is disabled */
     }
     .header-div {
-        height: 16vh; /* Increase header height for better visibility on mobile */
+        height: 20vh; /* Increase header height for better visibility on mobile */
     }
     .nav {
         display: flex; /* Use flex for navigation links to stack vertically */
@@ -230,7 +230,7 @@ ul{
         grid-template-columns: 1fr; /* Stack columns in intro section */
         padding-left: 5vw; /* Adjust padding for better spacing */
         padding-right: 5vw;
-        margin-top: 20vh; /* Decrease top margin u */
+        margin-top: 22vh; /* Decrease top margin u */
     }
     .s-text {
         width: 80vw; /* Adjust width of text box */
