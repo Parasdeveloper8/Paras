@@ -246,4 +246,7 @@ ul{
     .nav-link{
         font-size:0.9rem;
     }
+    .ol-flex >li{
+        margin-left:40vw;
+      }
 }
