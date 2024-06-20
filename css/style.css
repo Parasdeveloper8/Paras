@@ -8,7 +8,6 @@ body{
     overflow-x:hidden;
 }
 .header-div{
-    height:10vh;
     border:none;
     position:fixed;
     top:0;
@@ -211,9 +210,6 @@ ul{
 @media only screen and (max-width: 700px) {
     body {
         overflow-x: hidden; /* Ensure horizontal scrolling is disabled */
-    }
-    .header-div {
-        height: 20vh; /* Increase header height for better visibility on mobile */
     }
     .nav {
         display: flex; /* Use flex for navigation links to stack vertically */
