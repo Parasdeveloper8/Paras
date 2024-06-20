@@ -35,8 +35,8 @@ main{
     align-items: center;
 }
 #image{
-    width:15rem;
-    height:15rem;
+    width:40vh;
+    height:40vh;
     border-radius: 100%;
 }
 footer{
@@ -49,8 +49,8 @@ footer{
     color: rgb(49, 247, 247);
 }
 .s-text{
-    width:18rem;
-    height:8rem;
+    width:35vw;
+    height:20vh;
     border:1px solid rgb(255, 250, 250);
     background-color: rgb(255, 250, 250);
     box-sizing: border-box;
@@ -59,18 +59,23 @@ footer{
 .s-text > p{
     font-size: 1.3rem;
     font-style: italic;
-    text-align: center;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+#home{
+    margin-left: 0;
+    margin-right: 0;
 }
 .small-intro{
     display:grid;
-    width:45rem;
-    height:18rem;
+    padding-left: 2vw;
+    padding-right: 30vw;
     margin-top: 15vh;
     grid-template-columns: 1fr 1fr; 
 }
 .i-size{
-    width:10rem;
-    height:10rem;
+    width:20vh;
+    height:20vh;
 }
 .p-flex{
     display:flex;
@@ -174,8 +179,8 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    margin-left: 3rem;
-    grid-gap:5rem;
+    margin-left: 5vw;
+    grid-gap:5vw;
 }
 .social-div{
    display: flex;
