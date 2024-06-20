@@ -208,35 +208,39 @@ ul{
     font-weight:600;
     font-size:1.2rem;
 }
-@media only screen and (max-width:700px){
-    body{
-        width:100vw;
-        height:100vh;
-        overflow-x:hidden;
+@media only screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden; /* Ensure horizontal scrolling is disabled */
     }
-    .small-intro{
-        display:grid;
-        grid-template-columns: 1fr;
+    .header-div {
+        height: 15vh; /* Increase header height for better visibility on mobile */
     }
-    .s-text{
-        width:60vw;
-        height:10vh;
-        margin-left:20vw;
-        margin-right:20vw;
+    .nav {
+        display: flex; /* Use flex for navigation links to stack vertically */
+        flex-direction: column;
+        align-items: center;
     }
-    .nav{
+    #image {
+        width: 60vw; /* Adjust size of image for better proportion on smaller screens */
+        height: 60vw;
+        margin-left: 20vw; /* Center image horizontally */
+    }
+    .small-intro {
         display: grid;
+        grid-template-columns: 1fr; /* Stack columns in intro section */
+        padding-left: 5vw; /* Adjust padding for better spacing */
+        padding-right: 5vw;
+        margin-top: 10vh; /* Decrease top margin */
     }
-    #image{
-        width:60vw;
-        height:60vw;
-        margin-left:20vw;
-       }
-       .ol-flex{
-        display:grid;
-        grid-template-columns:1fr
+    .s-text {
+        width: 80vw; /* Adjust width of text box */
+        height: auto; /* Let height adjust according to content */
+        margin: 0 auto; /* Center horizontally */
     }
-    .header-div{
-        height:15vh;
+    .ol-flex {
+        display: grid;
+        grid-template-columns: 1fr; /* Stack columns in skill list */
+        margin-left: 5vw;
+        grid-gap: 2vw; /* Decrease gap between items */
     }
 }
