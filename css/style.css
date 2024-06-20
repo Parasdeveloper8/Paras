@@ -221,8 +221,8 @@ ul{
         align-items: center;
     }
     #image {
-        width: 60vw; /* Adjust size of image for better proportion on smaller screens */
-        height: 60vw;
+        width: 50vw; /* Adjust size of image for better proportion on smaller screens */
+        height: 50vw;
         margin-left: 20vw; /* Center image horizontally */
     }
     .small-intro {
@@ -230,7 +230,7 @@ ul{
         grid-template-columns: 1fr; /* Stack columns in intro section */
         padding-left: 5vw; /* Adjust padding for better spacing */
         padding-right: 5vw;
-        margin-top: 10vh; /* Decrease top margin */
+        margin-top: 20vh; /* Decrease top margin u */
     }
     .s-text {
         width: 80vw; /* Adjust width of text box */
