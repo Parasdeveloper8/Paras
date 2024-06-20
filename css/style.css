@@ -213,7 +213,7 @@ ul{
         overflow-x: hidden; /* Ensure horizontal scrolling is disabled */
     }
     .header-div {
-        height: 15vh; /* Increase header height for better visibility on mobile */
+        height: 16vh; /* Increase header height for better visibility on mobile */
     }
     .nav {
         display: flex; /* Use flex for navigation links to stack vertically */
