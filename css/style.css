@@ -245,4 +245,10 @@ ul{
     .ol-flex >li{
         margin-left:40vw;
       }
+      .p-flex > img{
+        margin-top:2vh;
+    }
+    #note{
+        padding-bottom:1vh;
+    }
 }
