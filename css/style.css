@@ -179,6 +179,10 @@ ul{
     margin-left: 5vw;
     grid-gap:5vw;
 }
+ #note{
+        padding-bottom:1vh; 
+    }
+
 .social-div{
    display: flex;
    flex-direction: row;
@@ -246,6 +250,6 @@ ul{
         margin-top:2vh;
     }
     #note{
-        padding-bottom:1vh;
+        padding-bottom:1vh; 
     }
 }
