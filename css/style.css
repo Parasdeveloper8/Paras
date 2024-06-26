@@ -17,7 +17,7 @@ body{
     background-color: white;
 }
 main{
-    background-image: linear-gradient(to bottom , white , aliceblue);
+    background-image: linear-gradient(to bottom , white ,white  ,rgb(235, 232, 232),white);
 }
 .nav-link{
     color:black;
@@ -38,12 +38,13 @@ main{
     width:40vh;
     height:40vh;
     border-radius: 100%;
+    box-shadow:0 0 1vh black;
 }
 footer{
     width:100vw;
     border:1px solid white;
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-image:linear-gradient(to bottom , white,silver);
 }
 .aqua{
     color: rgb(49, 247, 247);
